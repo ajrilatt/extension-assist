@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "Hadrian Voice Assistant",
+  "short_name": "HadrianVoice",
+  "version": "0.0.10",
+  "description": "Toolkit that responds to certain voice commands.",
+  "permissions": ["tabs","<all_urls>"],
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": [
+      "jquery.js",
+      "annyang.js",
+      "1hadrianvoice.js"
+    ],
+    "persistent": false
+  }
+}
